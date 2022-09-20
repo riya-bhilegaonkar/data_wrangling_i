@@ -3,4 +3,14 @@ title: "Data Import"
 output: github_document
 ---
 
+```{r, echo=false}
+library(tidyverse)
+```
+
 ## Data Import: CSVs
+
+Let's import data using the 'readr' package.
+```{r}
+read_csv("data_import_examples/data_import_examples/FAS_litters.csv")
+```
+
